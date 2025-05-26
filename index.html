@@ -1,59 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>text</title>
-
-    <style> 
-    .title {
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-
-    }
-
-        .veiws{
-            font-size: 14px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-
-        .content {
-            font-size: 15px;'
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-
-        .creator{
-            font-size: 15px;
-            margin-top: 8px;
-            margin-left: 400px;
-            color: rgb(214, 21, 82);
-        }
-    </style>
-
-    <p class = "title">
-        This is a sample text 
-        </p>
-
-        <p class = "veiws">
-        3.4M veiws &#183 6 months ago
-    </p>
-    
-    <p class = "content">
-        Here I am lerning about text styling using css
-        all colurs are default I think this is pretty
-        descent.
-    </p>
-
-    <p class = "creator">
-        By - Shamanth &#x2713
-    </p>
+  <title>My Ecommerce Store</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header>
+    <h1>My Ecommerce Store</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="product-listings">
+      <div class="product-item">
+        <img src="https://via.placeholder.com/150" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/150" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/150" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Ecommerce Store</p>
+  </footer>
 </body>
 </html>
